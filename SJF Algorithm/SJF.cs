@@ -17,19 +17,19 @@ namespace OperatingSystemSJFAlgorithm
         List<CustomProcess> workedProcess;
         // Lockable object - it's only one for all SJF
         public static object locker = new object();
-        // Amount of RAM - V and HDD - h
+        // Amount of RAM - v and HDD - h
         int v = 15, h = 14;
         public static EventWaitHandle mainWaitHandle = new EventWaitHandle(false, EventResetMode.AutoReset);
         // Current tact number and index of current process
         int tacts = 0, index = -1;
-        // T0 for preemptive planning with execution prehistory
+        // T0 for non preemptive planning with execution prehistory
         public static int t0 = 5;
         // Which of SJF variation currently running
         public static Method SJFMethod;
         public enum Method
         {
             RemainingExecutionTime, // Preemptive planning for remaining execution time
-            WithExecutionPrehistory // Preemptive planning with execution prehistory
+            WithExecutionPrehistory // Non preemptive planning with execution prehistory
         }
 
         public SJF()
