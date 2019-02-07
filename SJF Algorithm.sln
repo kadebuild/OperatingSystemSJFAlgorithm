@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJF Algorithm", "SJF Algorithm\SJF Algorithm.csproj", "{546742DD-C2C8-4744-86EE-6EDF13BB19AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{546742DD-C2C8-4744-86EE-6EDF13BB19AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546742DD-C2C8-4744-86EE-6EDF13BB19AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546742DD-C2C8-4744-86EE-6EDF13BB19AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546742DD-C2C8-4744-86EE-6EDF13BB19AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BFA0958-45E6-495D-A4E2-05D03F59C72B}
+	EndGlobalSection
+EndGlobal
